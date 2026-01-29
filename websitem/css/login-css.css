@@ -1,0 +1,78 @@
+body,html{
+    padding: 0px;
+    margin: 0px;
+    background-color: #dad7cd;
+    color: #3a5a40;
+}
+nav{
+    display: flex;
+    justify-content: center;
+    gap: 75px;
+}
+nav h1{
+    transition: all 0.4s ease;
+}
+nav h1:hover{
+    cursor: pointer;
+    transition: all 0.4s ease;
+    transform: scale(1.1) rotateY(45deg);
+}
+.main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.background{
+    width: 500px;
+    height: 500px;
+    border-radius: 50px;
+    border: 3px #344e41 solid;
+    background-color: #a3b18a;
+    color: #344e41;
+    text-align: left;
+    padding-top:35px;
+    padding-left: 45px;
+    font-size: 35px;
+}
+.inputlar{
+    display: flex;
+    flex-direction: column;
+}
+#username , #email , #password {
+    height: 35px;
+    width: 80%; /* Senin %50 değerinden biraz daha geniş olsun */
+    border-radius: 10px;
+    border: 1px solid #344e41;
+}
+#log-btn{
+    margin-top: 25px;
+    height: 70px;
+    width: 225px;
+    border-radius: 45px;
+    border: 2px #344e41 solid;
+    background-color: #6d7f4f;
+    color: #dad7cd;
+    font-size: x-large;
+    transition: all 0.4s ease;
+}
+#log-btn:hover{
+    transition: all 0.4s ease;
+    transform: translateY(10px) scale(1.1);
+    box-shadow: 0px 5px 5px 5px rgba(111, 111, 111, 0.444);
+}
+#reg{
+    display: flex;
+    justify-content: center;
+    text-align:left;
+    font-size: 45px;
+}
+#log{
+    display: flex;
+    justify-content: center;
+    text-align:left;
+    font-size: 45px;
+}
+#login{
+    color: rgb(255, 251, 0);
+    text-shadow: 3px 4px 5px rgba(121, 103, 1, 0.451);
+}

@@ -1,0 +1,1 @@
+Bu benim ilk web projem. Şu an 11. sınıf öğrencisiyim ve Yazılım Mühendisliği yolunda ilerliyorum. Bu projede HTML, CSS ve JavaScript kullanarak temel bir portfolyo ve kayıt sistemi oluşturdum. Gelişmeye devam ediyorum!
